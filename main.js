@@ -7,7 +7,7 @@ $(document).ready(function(){
 
   $(document).ready(function(){
     $("#p1").click(function(){
-        $("#img1").toggle();
+        $("#design").toggle();
       });
 
   });
