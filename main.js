@@ -1,13 +1,17 @@
-$(document).ready(function(){
-    $("#design").click(function(){
-        $("#p1").toggle();
-      });
-
+$(document).ready(function () {
+  $("#img1").click(function () {
+    $("#p1").toggle();
+    $("#img1").toggle();
   });
-
-  $(document).ready(function(){
-    $("#p1").click(function(){
-        $("#design").toggle();
-      });
-
+  $("#p1").click(function () {
+    $("#p1").toggle();
+    $("#img1").toggle();
   });
+});
+
+// $(document).ready(function () {
+//   $("#p1").click(function () {
+//     $("#p1").toggle();
+//     $("#img1").toggle();
+//   });
+// });
