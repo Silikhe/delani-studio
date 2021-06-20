@@ -16,6 +16,15 @@ $(document).ready(function () {
     $("#p2").toggle();
     $("#img2").toggle();
   });
+
+  $("#img3").click(function () {
+    $("#p3").toggle();
+    $("#img3").toggle();
+  });
+  $("#p3").click(function () {
+    $("#p3").toggle();
+    $("#img3").toggle();
+  });
 });
 
 // $(document).ready(function () {
