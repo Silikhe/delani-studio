@@ -25,12 +25,50 @@ $(document).ready(function () {
     $("#p3").toggle();
     $("#img3").toggle();
   });
+
+  $("#div1").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".hoover").show();
+    },
+    function () {
+      $(".hoover").hide();
+    }
+  );
+
+  $("#div2").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".hoover1").show();
+    },
+    function () {
+      $(".hoover1").hide();
+    }
+  );
+
+  $("#div3").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".hoover2").show();
+    },
+    function () {
+      $(".hoover2").hide();
+    }
+  );
+
+  $("#div4").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".hoover").show();
+    },
+    function () {
+      $(".hoover").hide();
+    }
+  );
 });
 
-// $(document).ready(function(){
-//     $("p").hover(function(){
-//       $(this).css("background-color", "yellow");
-//       }, function(){
-//       $(this).css("background-color", "pink");
-//     });
-//   });
+// $("#div1").hover(function(){
+//   $('.hoover').show();
+// },function(){
+//   $('.hoover').hide();
+// });

@@ -35,7 +35,7 @@
 
 
 .contact {
-  background-image: url("../assets/backgrounds/h_img.jpg");
+  background-image: url("../assets/backgrounds/c_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -118,3 +118,23 @@
 .contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
+
+/* Portfolio */
+
+.hoover, .hoover1, .hoover2, .hoover3{
+  height: 70%;
+  width: 70%; 
+  /* margin:5%; */
+  background: none;
+  top: 0px;
+  border:10px solid #fff;
+  color: #fff;
+  text-align: left;
+  padding: 20px;
+  display: none;
+}
+
+/* .overlay{
+  background: rgba(0,0,0,1);
+  z-index: 1000;
+} */
