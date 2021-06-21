@@ -59,10 +59,50 @@ $(document).ready(function () {
   $("#div4").hover(
     function () {
       $(this).addClass("overlay");
-      $(".hoover").show();
+      $(".hoover3").show();
     },
     function () {
-      $(".hoover").hide();
+      $(".hoover3").hide();
+    }
+  );
+
+  $("#div5").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".hoover4").show();
+    },
+    function () {
+      $(".hoover4").hide();
+    }
+  );
+
+  $("#div6").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".hoover5").show();
+    },
+    function () {
+      $(".hoover5").hide();
+    }
+  );
+
+  $("#div7").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".hoover6").show();
+    },
+    function () {
+      $(".hoover6").hide();
+    }
+  );
+
+  $("#div8").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".hoover7").show();
+    },
+    function () {
+      $(".hoover7").hide();
     }
   );
 });
