@@ -112,3 +112,9 @@ $(document).ready(function () {
 // },function(){
 //   $('.hoover').hide();
 // });
+
+
+
+const validate = () => {
+  alert("Thanks for reaching Silas")
+}
