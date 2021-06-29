@@ -1,4 +1,5 @@
-# Pizza Store
+# IP3
+# Selani Studio
 
 #### A portfolio for studio, june, 2021
 
@@ -8,7 +9,8 @@
 
 This is a website build by me to display studio work for Delani studio.
 
-![screenshot-127 0 0 1_5503-2021 06 29-12_43_30](https://user-images.githubusercontent.com/65366942/123777475-eb785700-d8d8-11eb-9e87-934192481f8b.png)
+![screenshot-silikhe github io-2021 06 22-02_04_41](https://user-images.githubusercontent.com/65366942/122838372-9e0b5100-d2fe-11eb-8f10-5e51e422989e.png)
+
 ## Setup/Installation Requirements
 
 - copy the url on arrow down
